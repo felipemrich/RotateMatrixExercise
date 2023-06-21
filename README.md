@@ -1,6 +1,6 @@
 # rotatematrixexercise
 
-<video src="record_rotatematrix.mov width" controls> 
+<video src="record_rotatematrix.mov width" height="320px" width="320px"> 
 Rotate Matrix Recording </video>
 
 In this exercise i created a 2D array, 3x3.
