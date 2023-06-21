@@ -1,7 +1,6 @@
 # rotatematrixexercise
 
-<video src="record_rotatematrix.mov width" height="320px" width="320px"> 
-Rotate Matrix Recording </video>
+<img src="rotatematrix_photo.jpeg" width="320px" title="Rotate Matrix Example">
 
 In this exercise i created a 2D array, 3x3.
 This is a small part of a bigger project, in this exercise we learn a little bit of how we can rotate an image.
