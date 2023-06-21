@@ -1,4 +1,6 @@
-
+/* .name for Class, if it was id i should use # 
+I set the display grid and the templete 3x3 
+*/
 .container {
     display: grid;
     grid-template-columns: repeat(3, 60px);
