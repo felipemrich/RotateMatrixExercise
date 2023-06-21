@@ -1,5 +1,8 @@
 # rotatematrixexercise
 
+<video src="record_rotatematrix.mov width" controls> 
+Rotate Matrix Recording </video>
+
 In this exercise i created a 2D array, 3x3.
 This is a small part of a bigger project, in this exercise we learn a little bit of how we can rotate an image.
 Instead of using pixels, that is a lot more comples, we are using an array to represent the pixels.
