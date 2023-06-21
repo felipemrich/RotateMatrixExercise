@@ -1,14 +1,18 @@
+// Here i set a  2DArray(Arrays of arrays) from 1 to 9.
+
 let array = 
 [[1,2,3],
 [4,5,6],
 [7,8,9]];
 
+// This function makes possible positions change
 function swap(A, i, j, k, l) {
     let temp = A[j][i];
     A[j][i] = A[l][k];
     A[l][k] = temp;
 }
 
+// Transpose invert rowns and columns
 function transpose(A) {
     let N = A.length;
     for (i = 0; i < N -1; i++) {
@@ -18,6 +22,7 @@ function transpose(A) {
     }
 }
 
+// Switch columns 
 function moveCols(A) {
     let N = A.length;
     let n = Math.floor(N/2);
@@ -28,13 +33,14 @@ function moveCols(A) {
     }
 }
 
+
+// Combine transpose and movecols to make it possible to rotate the matrix
 function rotateMatrix(A) {
     transpose(A);
     moveCols(A);
 }
 
-
-
+// Append the data into the display grid
 function updateGraphics(A) {
     let boxes = document.getElementsByClassName('box');
     let index = 0;
