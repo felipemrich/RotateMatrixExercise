@@ -1,0 +1,24 @@
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    grid-template-rows: repeat(3, 60px);
+    gap: 10px;
+    background-color: #fff;
+    color: #444;
+}
+
+.box {
+    background-color: #444;
+    color: #fff;
+    border-style:double;
+    border-color: aqua;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 150%;
+    text-align: center;
+}
+
+.space {
+    height: 20px;
+}
