@@ -1,4 +1,4 @@
-# rotatematrixexercise
+# Rotate Matrix Exercise
 
 <img src="rotatematrix_photo.jpeg" width="320px" title="Rotate Matrix Example">
 
