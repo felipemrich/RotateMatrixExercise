@@ -1,26 +1,29 @@
-/* .name for Class, if it was id i should use # 
-I set the display grid and the templete 3x3 
-*/
+/* The "container" class represents a grid container that holds 3x3 items (boxes) */
+/* It uses CSS Grid to arrange the items in rows and columns */
 .container {
-    display: grid;
-    grid-template-columns: repeat(3, 60px);
-    grid-template-rows: repeat(3, 60px);
-    gap: 10px;
-    background-color: #fff;
-    color: #444;
+    display: grid; /* Set the container as a CSS Grid container */
+    grid-template-columns: repeat(3, 60px); /* Create three columns each with a width of 60px */
+    grid-template-rows: repeat(3, 60px); /* Create three rows each with a height of 60px */
+    gap: 10px; /* Add a gap of 10px between each item (box) */
+    background-color: #fff; /* Set the background color of the container to white */
+    color: #444; /* Set the text color to a dark gray (#444) */
 }
 
+/* The "box" class represents the individual items inside the grid */
+/* These items are styled with a background color, border, padding, font size, and text alignment */
 .box {
-    background-color: #444;
-    color: #fff;
-    border-style:double;
-    border-color: aqua;
-    border-radius: 5px;
-    padding: 15px;
-    font-size: 150%;
-    text-align: center;
+    background-color: #444; /* Set the background color of the box to a dark gray (#444) */
+    color: #fff; /* Set the text color to white */
+    border-style: double; /* Set the border style to "double" */
+    border-color: aqua; /* Set the border color to aqua */
+    border-radius: 5px; /* Add rounded corners to the box using a border-radius of 5px */
+    padding: 15px; /* Add 15px of padding inside the box */
+    font-size: 150%; /* Set the font size to 150% of the default size */
+    text-align: center; /* Center the text inside the box */
 }
 
+/* The "space" class adds a space of 20px in height */
+/* It is used to create a vertical space between elements */
 .space {
-    height: 20px;
+    height: 20px; /* Set the height of the space to 20 pixels */
 }
