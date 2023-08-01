@@ -1,7 +1,3 @@
-<img src="rotatematrix_photo.jpeg" width="320px" title="Rotate Matrix Example">
-
-
-
 <div class="markdown prose w-full break-words dark:prose-invert light"><h1>Matrix Operations Repository</h1><img src="rotatematrix_photo.jpeg" width="320px" title="Rotate Matrix Example"><p>This repository contains JavaScript code for performing various operations on a 2D array (matrix) and updating an HTML display grid with the matrix data.</p><h2>Matrix Operations</h2><p>The <code>array</code> variable in the code initializes a 2D array from 1 to 9 as follows:</p><pre><div class="bg-black rounded-md mb-4"><div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>javascript</span><button class="flex ml-auto gap-2"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>Copy code</button></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-javascript"><span class="hljs-keyword">let</span> array = 
 [[<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>],
  [<span class="hljs-number">4</span>, <span class="hljs-number">5</span>, <span class="hljs-number">6</span>],
