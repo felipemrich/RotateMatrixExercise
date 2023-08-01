@@ -1,20 +1,27 @@
+<!-- This is the start of an HTML document -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Set the character encoding to UTF-8 for proper text handling -->
     <meta charset="UTF-8">
+    <!-- Configure the viewport to adjust the page's width to the device's width -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Set the title of the page -->
     <title>Rotate Matrix Exercise</title>
+    <!-- Link the external CSS file to apply styles to the HTML elements -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- These are the buttons that change the matrix. You always need to update Graphics to see the changes -->
+    <!-- These buttons trigger functions that manipulate the matrix. The "Update Graphics" button is essential to see the changes visually. -->
     <button onclick="transpose(array)">Transpose Matrix</button>
     <button onclick="moveCols(array)">Swap Columns</button>
     <button onclick="rotateMatrix(array)">Rotate Matrix</button>
     <button onclick="updateGraphics(array)">Update Graphics</button>
-    <!-- I created this space to be more visable -->
+    
+    <!-- Add some space to make the buttons more visible and separate them from the content below. -->
     <div class="space"></div>
-    <!-- Here are the grid component adn the boxes. I need to set this divs so i can call them using javascript -->
+    
+    <!-- Here we define the grid component and the individual boxes using div elements. These divs will be accessed through JavaScript. -->
     <div class="container">
         <div class="box 1">1</div>
         <div class="box 2">2</div>
@@ -26,6 +33,8 @@
         <div class="box 8">8</div>
         <div class="box 9">9</div>
     </div>
+    
+    <!-- Include an external JavaScript file that contains the logic for the matrix operations. -->
     <script src="rotatematrixexercise.js"></script>
 </body>
 </html>
